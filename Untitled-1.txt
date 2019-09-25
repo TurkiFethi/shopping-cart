@@ -1,0 +1,73 @@
+var addition = document.querySelectorAll('.add');
+var soustraction = document.querySelectorAll('.sou');
+//let likes= document.querySelectorAll('.add');
+
+
+//addition article
+function addNbreArticle(){
+    
+        document.querySelector('.count').innerHTML++;
+    
+    
+
+}
+for(let i=0;i<3;i++){
+
+addition.item(i).addEventListener('click',()=>{
+    
+    addNbreArticle();
+    
+})
+}
+ //soustraction article
+   function sousNbreArticle(){
+    for(let i=0;i<3;i++){
+
+        (document.querySelectorAll('.count').item(i).innerHTML <1)?document.querySelectorAll('.count').item(i).innerHTML: (document.querySelectorAll('.count').item(i).innerHTML) = Number( document.querySelectorAll('.count').item(i).innerHTML) -  1;
+    }
+   }
+for(let i=0;i<3;i++){
+     soustraction.item(i).addEventListener('click',()=>{
+     sousNbreArticle();
+})}
+
+
+//delete list article
+for(let i=0;i<3;i++){
+document.querySelectorAll('.delete').item(i).addEventListener('click',()=>{
+
+    document.querySelectorAll(".list").item(i).remove();
+})}
+//modifier couleur favoris
+for(let i=0;i<3;i++){
+document.querySelectorAll('.fa-heart').item(i).addEventListener('click',()=>{
+    (document.querySelectorAll('.fa-heart').item(i)).style.color="red";
+})}
+
+
+/*
+for(let i=0;i<3;i++){
+    
+document.querySelector('.add').addEventListener('click',()=>{
+
+
+
+   console.log( Number(document.querySelector('.totale')).innerHTML = Number(document.querySelectorAll('.count').item(i).innerHTML)*Number(document.querySelectorAll('.prix').item(i).innerHTML))
+    
+})}*/
+
+
+document.querySelector('.sou').addEventListener('click',()=>{
+
+    (document.querySelector('.totale').innerHTML <1)?document.querySelector('.totale').innerHTML:document.querySelector('.totale').innerText = Number(document.querySelector('.totale').innerHTML)-Number(document.querySelector('.prix').innerHTML)
+
+})
+
+
+
+
+
+
+
+
+

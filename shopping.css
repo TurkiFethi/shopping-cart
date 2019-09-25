@@ -1,0 +1,88 @@
+.main{
+    background:rgb(217, 218, 216);
+}
+.card{
+    background: #FFFFFF;
+    margin: 128px 219px;
+    
+
+}
+.total{
+    color: #8284A4;
+    padding: 20px;
+    margin: 0px;
+    font-size: 25px;
+    border-bottom:1px solid #EEF2F5;
+}
+.dolar{
+
+        color: #8284A4;
+        padding: 20px;
+        margin: 0px;
+        font-size: 25px;
+        border-bottom:1px solid #EEF2F5;
+
+}
+.list{
+    display: flex;
+    justify-content: space-around;
+    border-bottom:1px solid #EEF2F5;
+
+}
+.delete{
+    padding-top: 80px;
+
+}
+.chaussure{
+    background: #F7F7F9;
+    margin-bottom: 20px;
+    margin-top: 24px;
+    padding: 10px 15px;
+    
+}
+.compteur{
+    display: flex;
+    
+}
+.add{
+    background: #E1E8EE;
+    width: 37px;
+    height: 34px;  
+    margin-right: 25px;
+    margin-top: 80px;
+    border-radius: 4px;
+
+}
+.sou{
+        background: #E1E8EE;
+        width: 37px;
+        height: 34px;  
+        margin-left: -15px;
+        margin-top: 80px;
+        border-radius: 4px;
+}
+.count{
+    padding: 70px 40px 0px 0px;
+    color: #99ADB7;
+}
+.counte{
+    padding: 70px 40px 0px 0px;
+    color: #99ADB7;
+}
+.addition
+{
+    margin: 0px;
+    color: #87949F;
+    font-size: 27px;
+}
+.type-chaussure{
+    color: #9AA29F;
+    padding-top: 50px;
+}
+.color-chaussure{
+    color: #D0D2D8;
+}
+.somme{
+    display: flex;
+}
+
